@@ -1,0 +1,1567 @@
+{
+  "version": "1.0.1",
+  "event_classes": [
+    {
+      "id": "aviation_incident",
+      "label": "Aviation incident",
+      "category": "transport",
+      "houses": [
+        3,
+        6,
+        8,
+        12
+      ],
+      "planets": [
+        "Saturn",
+        "Rahu",
+        "Ketu",
+        "Mars"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened aviation/air-transport disruption or accident themes; historical aviation/transport analogues should be shown."
+    },
+    {
+      "id": "maritime_incident",
+      "label": "Maritime or shipping incident",
+      "category": "transport",
+      "houses": [
+        4,
+        8,
+        12
+      ],
+      "planets": [
+        "Saturn",
+        "Rahu",
+        "Ketu",
+        "Neptune"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened maritime, port, shipping or water-transport disruption themes; historical analogues should be shown."
+    },
+    {
+      "id": "rail_transport_incident",
+      "label": "Rail or mass-transit incident",
+      "category": "transport",
+      "houses": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "planets": [
+        "Saturn",
+        "Mars",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened rail or mass-transit disruption/accident themes; historical analogues should be shown."
+    },
+    {
+      "id": "industrial_accident",
+      "label": "Major industrial accident",
+      "category": "accident",
+      "houses": [
+        6,
+        8,
+        10
+      ],
+      "planets": [
+        "Mars",
+        "Saturn",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened industrial, factory, engineering or workplace accident themes; historical analogues should be shown."
+    },
+    {
+      "id": "fire_explosion",
+      "label": "Fire or explosion incident",
+      "category": "accident",
+      "houses": [
+        3,
+        6,
+        8
+      ],
+      "planets": [
+        "Mars",
+        "Rahu",
+        "Ketu",
+        "Sun"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened fire, explosion or hazardous-energy incident themes; historical analogues should be shown."
+    },
+    {
+      "id": "earthquake",
+      "label": "Earthquake or seismic disruption",
+      "category": "natural_hazard",
+      "houses": [
+        4,
+        8,
+        12
+      ],
+      "planets": [
+        "Saturn",
+        "Mars",
+        "Rahu",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened seismic/displacement themes; historical earthquake analogues should be shown."
+    },
+    {
+      "id": "flood",
+      "label": "Flood or major water disruption",
+      "category": "natural_hazard",
+      "houses": [
+        4,
+        8,
+        12
+      ],
+      "planets": [
+        "Moon",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened flood, water-management or inundation themes; historical analogues should be shown."
+    },
+    {
+      "id": "storm_cyclone",
+      "label": "Severe storm or cyclone",
+      "category": "natural_hazard",
+      "houses": [
+        3,
+        4,
+        8,
+        12
+      ],
+      "planets": [
+        "Rahu",
+        "Saturn",
+        "Mars",
+        "Moon"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened severe-weather and storm-disruption themes; historical analogues should be shown."
+    },
+    {
+      "id": "drought_heat",
+      "label": "Drought or extreme-heat stress",
+      "category": "climate_resource",
+      "houses": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "planets": [
+        "Sun",
+        "Saturn",
+        "Ketu",
+        "Mars"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened heat, drought, crop or resource-stress themes; historical analogues should be shown."
+    },
+    {
+      "id": "terror_attack",
+      "label": "Terrorism or mass-casualty security incident",
+      "category": "security",
+      "houses": [
+        3,
+        6,
+        8,
+        12
+      ],
+      "planets": [
+        "Mars",
+        "Rahu",
+        "Ketu",
+        "Saturn"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened terrorism, insurgent violence or mass-casualty security themes; historical security analogues should be shown."
+    },
+    {
+      "id": "border_clash",
+      "label": "Border clash or military escalation",
+      "category": "conflict",
+      "houses": [
+        3,
+        6,
+        7,
+        8,
+        12
+      ],
+      "planets": [
+        "Mars",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened border, military or armed-escalation themes; historical conflict analogues should be shown."
+    },
+    {
+      "id": "internal_unrest",
+      "label": "Major protest or internal unrest",
+      "category": "civil_order",
+      "houses": [
+        1,
+        4,
+        6,
+        8,
+        11
+      ],
+      "planets": [
+        "Mars",
+        "Rahu",
+        "Saturn",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened protest, civil-friction or public-order themes; historical analogues should be shown."
+    },
+    {
+      "id": "cyber_attack",
+      "label": "Major cyber or communications disruption",
+      "category": "technology_security",
+      "houses": [
+        3,
+        5,
+        8,
+        11,
+        12
+      ],
+      "planets": [
+        "Rahu",
+        "Mercury",
+        "Ketu",
+        "Saturn"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened cyberattack, communications failure or digital disruption themes; historical analogues should be shown."
+    },
+    {
+      "id": "banking_crisis",
+      "label": "Banking or credit-system stress",
+      "category": "finance",
+      "houses": [
+        2,
+        6,
+        8,
+        11,
+        12
+      ],
+      "planets": [
+        "Saturn",
+        "Rahu",
+        "Ketu",
+        "Jupiter"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened banking, credit, liquidity or financial-system stress themes; historical analogues should be shown."
+    },
+    {
+      "id": "market_shock",
+      "label": "Major market or valuation shock",
+      "category": "finance",
+      "houses": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "planets": [
+        "Rahu",
+        "Saturn",
+        "Jupiter",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened market-volatility or valuation-shock themes; historical market analogues should be shown."
+    },
+    {
+      "id": "currency_shock",
+      "label": "Currency or monetary shock",
+      "category": "finance",
+      "houses": [
+        2,
+        8,
+        11,
+        12
+      ],
+      "planets": [
+        "Rahu",
+        "Saturn",
+        "Jupiter",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened currency, monetary-policy or exchange-rate shock themes; historical analogues should be shown."
+    },
+    {
+      "id": "commodity_shock",
+      "label": "Commodity or resource-price shock",
+      "category": "resources",
+      "houses": [
+        2,
+        4,
+        8,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Rahu",
+        "Saturn",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened commodity, food, fuel or strategic-resource price themes; historical analogues should be shown."
+    },
+    {
+      "id": "trade_disruption",
+      "label": "Major trade or logistics disruption",
+      "category": "trade",
+      "houses": [
+        3,
+        7,
+        9,
+        12
+      ],
+      "planets": [
+        "Rahu",
+        "Saturn",
+        "Jupiter",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened trade, shipping, customs or logistics-disruption themes; historical analogues should be shown."
+    },
+    {
+      "id": "diplomatic_crisis",
+      "label": "Diplomatic rupture or major international dispute",
+      "category": "foreign_relations",
+      "houses": [
+        7,
+        9,
+        12
+      ],
+      "planets": [
+        "Rahu",
+        "Saturn",
+        "Mars",
+        "Jupiter"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened diplomatic rupture, alliance tension or international-dispute themes; historical analogues should be shown."
+    },
+    {
+      "id": "treaty_agreement",
+      "label": "Major treaty, agreement or diplomatic settlement",
+      "category": "foreign_relations",
+      "houses": [
+        7,
+        9,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Venus",
+        "Saturn",
+        "Mercury"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Astrological indication for heightened treaty, agreement, alliance or negotiated-settlement themes; historical analogues should be shown."
+    },
+    {
+      "id": "constitutional_crisis",
+      "label": "Constitutional or institutional crisis",
+      "category": "institutions",
+      "houses": [
+        1,
+        6,
+        9,
+        10
+      ],
+      "planets": [
+        "Saturn",
+        "Rahu",
+        "Ketu",
+        "Mars"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened constitutional, institutional or governance-structure stress themes; historical analogues should be shown."
+    },
+    {
+      "id": "leadership_transition",
+      "label": "Leadership or institutional transition",
+      "category": "institutions",
+      "houses": [
+        1,
+        10,
+        11
+      ],
+      "planets": [
+        "Sun",
+        "Saturn",
+        "Jupiter",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened leadership, executive or institutional-transition themes; historical analogues should be shown."
+    },
+    {
+      "id": "public_health_crisis",
+      "label": "Major public-health emergency",
+      "category": "health",
+      "houses": [
+        1,
+        6,
+        8,
+        12
+      ],
+      "planets": [
+        "Saturn",
+        "Rahu",
+        "Ketu",
+        "Jupiter"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened public-health, epidemic, hospital or population-health stress themes; historical analogues should be shown."
+    },
+    {
+      "id": "food_supply_stress",
+      "label": "Food or agricultural supply stress",
+      "category": "resources",
+      "houses": [
+        2,
+        4,
+        6,
+        11
+      ],
+      "planets": [
+        "Saturn",
+        "Rahu",
+        "Ketu",
+        "Sun"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened food-supply, crop, livestock or agricultural-stress themes; historical analogues should be shown."
+    },
+    {
+      "id": "energy_supply_disruption",
+      "label": "Energy or fuel-supply disruption",
+      "category": "resources",
+      "houses": [
+        2,
+        4,
+        8,
+        12
+      ],
+      "planets": [
+        "Saturn",
+        "Rahu",
+        "Mars",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened energy, fuel, electricity or strategic-resource disruption themes; historical analogues should be shown."
+    },
+    {
+      "id": "infrastructure_failure",
+      "label": "Major infrastructure failure",
+      "category": "infrastructure",
+      "houses": [
+        4,
+        6,
+        8,
+        10
+      ],
+      "planets": [
+        "Saturn",
+        "Mars",
+        "Rahu",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened infrastructure, utilities, construction or transport-system failure themes; historical analogues should be shown."
+    },
+    {
+      "id": "mass_migration",
+      "label": "Major migration or displacement wave",
+      "category": "population",
+      "houses": [
+        3,
+        7,
+        9,
+        12
+      ],
+      "planets": [
+        "Rahu",
+        "Ketu",
+        "Saturn",
+        "Jupiter"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened migration, displacement or refugee-flow themes; historical analogues should be shown."
+    },
+    {
+      "id": "scientific_breakthrough",
+      "label": "Major scientific or technological breakthrough",
+      "category": "science_technology",
+      "houses": [
+        3,
+        5,
+        9,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Mercury",
+        "Rahu",
+        "Uranus"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Astrological indication for heightened scientific, technological or research-breakthrough themes; historical analogues should be shown."
+    },
+    {
+      "id": "space_launch_incident",
+      "label": "Major space or aerospace event",
+      "category": "aerospace",
+      "houses": [
+        3,
+        5,
+        9,
+        11
+      ],
+      "planets": [
+        "Rahu",
+        "Jupiter",
+        "Saturn",
+        "Mars"
+      ],
+      "aspects": [
+        0,
+        90,
+        120,
+        180
+      ],
+      "text": "Astrological indication for heightened aerospace, satellite, launch or space-program event themes; historical analogues should be shown."
+    },
+    {
+      "id": "communications_outage",
+      "label": "Major communications outage",
+      "category": "communications",
+      "houses": [
+        3,
+        8,
+        11,
+        12
+      ],
+      "planets": [
+        "Mercury",
+        "Rahu",
+        "Ketu",
+        "Saturn"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for heightened telecommunications, broadcasting or network-outage themes; historical analogues should be shown."
+    },
+    {
+      "id": "exceptional_scientific_discovery",
+      "label": "Exceptional scientific discovery",
+      "category": "positive_science",
+      "polarity": "positive",
+      "houses": [
+        3,
+        5,
+        9,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Mercury",
+        "Uranus",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for an exceptional scientific discovery, major research result or internationally notable advance in knowledge; historical scientific analogues should be shown."
+    },
+    {
+      "id": "major_technology_breakthrough",
+      "label": "Major technology breakthrough",
+      "category": "positive_technology",
+      "polarity": "positive",
+      "houses": [
+        3,
+        5,
+        9,
+        10,
+        11
+      ],
+      "planets": [
+        "Mercury",
+        "Jupiter",
+        "Uranus",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for a major technological breakthrough, invention, platform or engineering advance; historical analogues should be shown."
+    },
+    {
+      "id": "space_mission_success",
+      "label": "Major space-mission success",
+      "category": "positive_aerospace",
+      "polarity": "positive",
+      "houses": [
+        3,
+        5,
+        9,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Sun",
+        "Mercury",
+        "Uranus"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for a successful space launch, landing, satellite mission or major aerospace achievement; historical analogues should be shown."
+    },
+    {
+      "id": "major_sports_victory",
+      "label": "Major international sports victory",
+      "category": "positive_sport",
+      "polarity": "positive",
+      "houses": [
+        3,
+        5,
+        6,
+        10,
+        11
+      ],
+      "planets": [
+        "Sun",
+        "Mars",
+        "Jupiter",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for a major national sports victory, championship or international competitive success; historical sports analogues should be shown."
+    },
+    {
+      "id": "sporting_record",
+      "label": "Exceptional sporting record",
+      "category": "positive_sport",
+      "polarity": "positive",
+      "houses": [
+        3,
+        5,
+        6,
+        10,
+        11
+      ],
+      "planets": [
+        "Sun",
+        "Mars",
+        "Jupiter",
+        "Mercury"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for an exceptional sporting performance, world record or historic competitive achievement; historical analogues should be shown."
+    },
+    {
+      "id": "major_cultural_achievement",
+      "label": "Major cultural or artistic achievement",
+      "category": "positive_culture",
+      "polarity": "positive",
+      "houses": [
+        3,
+        5,
+        9,
+        10,
+        11
+      ],
+      "planets": [
+        "Venus",
+        "Jupiter",
+        "Mercury",
+        "Sun"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for major artistic, cultural, literary or entertainment achievement and international recognition; historical analogues should be shown."
+    },
+    {
+      "id": "international_award_recognition",
+      "label": "Major international award or recognition",
+      "category": "positive_recognition",
+      "polarity": "positive",
+      "houses": [
+        5,
+        9,
+        10,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Sun",
+        "Venus",
+        "Mercury"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for major international recognition, awards, honours or prestige for the nation or its representatives; historical analogues should be shown."
+    },
+    {
+      "id": "medical_breakthrough",
+      "label": "Major medical or public-health breakthrough",
+      "category": "positive_health",
+      "polarity": "positive",
+      "houses": [
+        5,
+        6,
+        9,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Mercury",
+        "Sun",
+        "Uranus"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for a major medical discovery, treatment advance, vaccine, health-system innovation or public-health success; historical analogues should be shown."
+    },
+    {
+      "id": "economic_expansion",
+      "label": "Strong economic expansion",
+      "category": "positive_economy",
+      "polarity": "positive",
+      "houses": [
+        2,
+        5,
+        10,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Venus",
+        "Mercury",
+        "Sun"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for strong economic expansion, production, investment, employment or revenue growth; historical economic analogues should be shown."
+    },
+    {
+      "id": "market_rally",
+      "label": "Major financial-market rally",
+      "category": "positive_finance",
+      "polarity": "positive",
+      "houses": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Venus",
+        "Mercury",
+        "Sun"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for a major market rally, valuation expansion or strong investor confidence; historical market analogues should be shown."
+    },
+    {
+      "id": "currency_strength",
+      "label": "Currency strengthening or monetary stability",
+      "category": "positive_finance",
+      "polarity": "positive",
+      "houses": [
+        2,
+        8,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Venus",
+        "Mercury",
+        "Sun"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for currency strengthening, monetary stability or improved financial confidence; historical monetary analogues should be shown."
+    },
+    {
+      "id": "trade_surge",
+      "label": "Major export or trade expansion",
+      "category": "positive_trade",
+      "polarity": "positive",
+      "houses": [
+        3,
+        7,
+        9,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Mercury",
+        "Venus",
+        "Sun"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for a major export surge, trade expansion, logistics growth or new international commercial access; historical analogues should be shown."
+    },
+    {
+      "id": "diplomatic_breakthrough",
+      "label": "Major diplomatic breakthrough",
+      "category": "positive_foreign_relations",
+      "polarity": "positive",
+      "houses": [
+        7,
+        9,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Venus",
+        "Mercury",
+        "Sun"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for a major diplomatic breakthrough, reconciliation, alliance improvement or negotiated settlement; historical analogues should be shown."
+    },
+    {
+      "id": "peace_settlement",
+      "label": "Major peace or conflict settlement",
+      "category": "positive_peace",
+      "polarity": "positive",
+      "houses": [
+        7,
+        9,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Venus",
+        "Saturn",
+        "Mercury"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for a significant ceasefire, peace agreement, conflict settlement or de-escalation; historical analogues should be shown."
+    },
+    {
+      "id": "infrastructure_completion",
+      "label": "Major infrastructure completion",
+      "category": "positive_infrastructure",
+      "polarity": "positive",
+      "houses": [
+        4,
+        10,
+        11
+      ],
+      "planets": [
+        "Saturn",
+        "Jupiter",
+        "Sun",
+        "Mars"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for completion of major infrastructure, transport, housing, energy or public-works projects; historical analogues should be shown."
+    },
+    {
+      "id": "energy_discovery",
+      "label": "Major energy or resource discovery",
+      "category": "positive_resources",
+      "polarity": "positive",
+      "houses": [
+        2,
+        4,
+        8,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Sun",
+        "Mars",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for a major energy, mineral, water or strategic-resource discovery or production breakthrough; historical analogues should be shown."
+    },
+    {
+      "id": "agricultural_bumper_harvest",
+      "label": "Exceptional agricultural harvest",
+      "category": "positive_agriculture",
+      "polarity": "positive",
+      "houses": [
+        2,
+        4,
+        5,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Moon",
+        "Venus",
+        "Sun"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for an exceptional harvest, agricultural output or favourable food-supply cycle; historical agricultural analogues should be shown."
+    },
+    {
+      "id": "tourism_boom",
+      "label": "Major tourism and travel boom",
+      "category": "positive_tourism",
+      "polarity": "positive",
+      "houses": [
+        3,
+        5,
+        9,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Venus",
+        "Mercury",
+        "Moon"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for a major tourism surge, international travel growth or exceptional cultural visibility; historical analogues should be shown."
+    },
+    {
+      "id": "education_academic_achievement",
+      "label": "Major educational or academic achievement",
+      "category": "positive_education",
+      "polarity": "positive",
+      "houses": [
+        4,
+        5,
+        9,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Mercury",
+        "Sun",
+        "Venus"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for exceptional educational achievement, major academic recognition or a landmark scholarly development; historical analogues should be shown."
+    },
+    {
+      "id": "startup_innovation_surge",
+      "label": "Exceptional entrepreneurship and innovation surge",
+      "category": "positive_business",
+      "polarity": "positive",
+      "houses": [
+        2,
+        5,
+        7,
+        10,
+        11
+      ],
+      "planets": [
+        "Mercury",
+        "Jupiter",
+        "Venus",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for an exceptional entrepreneurship, startup, investment or innovation cycle; historical business analogues should be shown."
+    },
+    {
+      "id": "employment_gain",
+      "label": "Major employment and income improvement",
+      "category": "positive_economy",
+      "polarity": "positive",
+      "houses": [
+        2,
+        6,
+        10,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Venus",
+        "Mercury",
+        "Sun"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for substantial employment growth, wage improvement or broad-based income gains; historical economic analogues should be shown."
+    },
+    {
+      "id": "national_prestige_rise",
+      "label": "Major rise in national prestige",
+      "category": "positive_recognition",
+      "polarity": "positive",
+      "houses": [
+        5,
+        9,
+        10,
+        11
+      ],
+      "planets": [
+        "Sun",
+        "Jupiter",
+        "Venus",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for an exceptional rise in national prestige, global visibility or symbolic achievement; historical analogues should be shown."
+    },
+    {
+      "id": "major_election_success",
+      "label": "Clear political or electoral success",
+      "category": "positive_politics",
+      "polarity": "positive",
+      "houses": [
+        1,
+        5,
+        9,
+        10,
+        11
+      ],
+      "planets": [
+        "Sun",
+        "Jupiter",
+        "Mercury",
+        "Mars"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for a clear political victory, mandate, leadership success or institutional consolidation; historical political analogues should be shown."
+    },
+    {
+      "id": "social_reconciliation",
+      "label": "Major social reconciliation or unity",
+      "category": "positive_social",
+      "polarity": "positive",
+      "houses": [
+        1,
+        4,
+        7,
+        11
+      ],
+      "planets": [
+        "Jupiter",
+        "Venus",
+        "Moon",
+        "Mercury"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "text": "Positive astrological indication for major social reconciliation, coalition-building, communal harmony or national unity; historical analogues should be shown."
+    },
+    {
+      "id": "stock_market_rally",
+      "label": "Overall stock-market strength / rally",
+      "category": "markets",
+      "houses": [
+        2,
+        5,
+        10
+      ],
+      "planets": [
+        "Jupiter",
+        "Sun",
+        "Mercury",
+        "Venus"
+      ],
+      "aspects": [
+        0,
+        60,
+        120
+      ],
+      "polarity": "positive",
+      "text": "Astrological indication related to overall stock-market strength / rally; this is a symbolic market/commodity classification, not a measured price target or a guaranteed move."
+    },
+    {
+      "id": "stock_market_selloff",
+      "label": "Overall stock-market weakness / sell-off",
+      "category": "markets",
+      "houses": [
+        2,
+        5,
+        8,
+        12
+      ],
+      "planets": [
+        "Saturn",
+        "Mars",
+        "Rahu",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "polarity": "negative_or_mixed",
+      "text": "Astrological indication related to overall stock-market weakness / sell-off; this is a symbolic market/commodity classification, not a measured price target or a guaranteed move."
+    },
+    {
+      "id": "market_volatility",
+      "label": "Elevated stock-market volatility",
+      "category": "markets",
+      "houses": [
+        3,
+        6,
+        8,
+        12
+      ],
+      "planets": [
+        "Mars",
+        "Saturn",
+        "Rahu",
+        "Ketu",
+        "Mercury"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "polarity": "mixed",
+      "text": "Astrological indication related to elevated stock-market volatility; this is a symbolic market/commodity classification, not a measured price target or a guaranteed move."
+    },
+    {
+      "id": "gold_price_strength",
+      "label": "Gold price strength",
+      "category": "commodities",
+      "houses": [
+        2,
+        8,
+        9,
+        12
+      ],
+      "planets": [
+        "Sun",
+        "Jupiter",
+        "Venus",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        60,
+        90,
+        180
+      ],
+      "polarity": "mixed",
+      "text": "Astrological indication related to gold price strength; this is a symbolic market/commodity classification, not a measured price target or a guaranteed move."
+    },
+    {
+      "id": "crude_oil_price_shock",
+      "label": "Crude-oil price spike / supply shock",
+      "category": "commodities",
+      "houses": [
+        2,
+        6,
+        8,
+        12
+      ],
+      "planets": [
+        "Mars",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "polarity": "negative_or_mixed",
+      "text": "Astrological indication related to crude-oil price spike / supply shock; this is a symbolic market/commodity classification, not a measured price target or a guaranteed move."
+    },
+    {
+      "id": "energy_commodity_strength",
+      "label": "Energy commodity strength",
+      "category": "commodities",
+      "houses": [
+        2,
+        6,
+        8,
+        10
+      ],
+      "planets": [
+        "Sun",
+        "Mars",
+        "Saturn",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        60,
+        90,
+        180
+      ],
+      "polarity": "mixed",
+      "text": "Astrological indication related to energy commodity strength; this is a symbolic market/commodity classification, not a measured price target or a guaranteed move."
+    },
+    {
+      "id": "agricultural_commodity_swing",
+      "label": "Agricultural commodity price swing",
+      "category": "commodities",
+      "houses": [
+        2,
+        4,
+        6,
+        8,
+        12
+      ],
+      "planets": [
+        "Moon",
+        "Venus",
+        "Jupiter",
+        "Saturn",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "polarity": "mixed",
+      "text": "Astrological indication related to agricultural commodity price swing; this is a symbolic market/commodity classification, not a measured price target or a guaranteed move."
+    },
+    {
+      "id": "industrial_metals_swing",
+      "label": "Industrial metals price swing",
+      "category": "commodities",
+      "houses": [
+        2,
+        6,
+        8,
+        10,
+        11
+      ],
+      "planets": [
+        "Mars",
+        "Saturn",
+        "Mercury",
+        "Rahu"
+      ],
+      "aspects": [
+        0,
+        60,
+        90,
+        180
+      ],
+      "polarity": "mixed",
+      "text": "Astrological indication related to industrial metals price swing; this is a symbolic market/commodity classification, not a measured price target or a guaranteed move."
+    },
+    {
+      "id": "currency_weakness",
+      "label": "Currency weakness / depreciation pressure",
+      "category": "markets",
+      "houses": [
+        2,
+        6,
+        8,
+        12
+      ],
+      "planets": [
+        "Saturn",
+        "Mars",
+        "Rahu",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "polarity": "negative_or_mixed",
+      "text": "Astrological indication related to currency weakness / depreciation pressure; this is a symbolic market/commodity classification, not a measured price target or a guaranteed move."
+    },
+    {
+      "id": "public_uprising",
+      "label": "Public uprising or mass mobilisation",
+      "category": "civil_order",
+      "houses": [
+        1,
+        4,
+        6,
+        8,
+        11,
+        12
+      ],
+      "planets": [
+        "Mars",
+        "Saturn",
+        "Rahu",
+        "Ketu",
+        "Sun"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for mass mobilisation, sustained public demonstrations or uprising-like pressure. Requires multiple independent triggers and should be compared with dated civil-order analogues."
+    },
+    {
+      "id": "government_fall",
+      "label": "Government collapse or loss of governing majority",
+      "category": "institutions",
+      "houses": [
+        1,
+        8,
+        10,
+        11,
+        12
+      ],
+      "planets": [
+        "Sun",
+        "Mars",
+        "Saturn",
+        "Jupiter",
+        "Rahu",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for executive instability, loss of governing support or institutional breakdown. It is a scenario class, not a factual assertion that a government will fall."
+    },
+    {
+      "id": "executive_removal",
+      "label": "Abrupt leadership removal, resignation or forced transition",
+      "category": "institutions",
+      "houses": [
+        1,
+        8,
+        10,
+        12
+      ],
+      "planets": [
+        "Sun",
+        "Mars",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "aspects": [
+        0,
+        90,
+        180
+      ],
+      "text": "Astrological indication for abrupt leadership discontinuity or forced transition; interpret with national chart, dasha-like timing analogues and corroborating factors."
+    }
+  ],
+  "event_class_count": 66
+}

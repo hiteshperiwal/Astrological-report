@@ -1,0 +1,107 @@
+country,event_name,local_date,local_time,place,latitude,longitude,timezone,event_type,source_note
+India,Independence of India,1947-08-15,00:00:00,"New Delhi, India",28.6139,77.209,Asia/Kolkata,independence,Bundled reference event; verify the historical timestamp for research use.
+India,Constitution of India came into force,1950-01-26,00:00:00,"New Delhi, India",28.6139,77.209,Asia/Kolkata,constitution,Bundled reference event; verify the historical timestamp for research use.
+India,Emergency declared,1975-06-25,23:45:00,"New Delhi, India",28.6139,77.209,Asia/Kolkata,political_transition,Bundled reference event; verify the historical timestamp for research use.
+India,Economic liberalisation budget,1991-07-24,17:00:00,"New Delhi, India",28.6139,77.209,Asia/Kolkata,economic,Bundled reference event; verify the historical timestamp for research use.
+Pakistan,Independence of Pakistan,1947-08-14,00:00:00,"Karachi, Pakistan",24.8607,67.0011,Asia/Karachi,independence,Bundled reference event; verify the historical timestamp for research use.
+Pakistan,Constitution of 1973,1973-08-14,00:00:00,"Islamabad, Pakistan",33.6844,73.0479,Asia/Karachi,constitution,Bundled reference event; verify the historical timestamp for research use.
+Bangladesh,Declaration of Independence,1971-03-26,00:00:00,"Dhaka, Bangladesh",23.8103,90.4125,Asia/Dhaka,independence,Bundled reference event; verify the historical timestamp for research use.
+Bangladesh,Victory Day,1971-12-16,16:31:00,"Dhaka, Bangladesh",23.8103,90.4125,Asia/Dhaka,political_transition,Bundled reference event; verify the historical timestamp for research use.
+United States,Declaration of Independence,1776-07-04,12:00:00,"Philadelphia, USA",39.9526,-75.1652,America/New_York,founding,Bundled reference event; verify the historical timestamp for research use.
+United States,U.S. Constitution signed,1787-09-17,12:00:00,"Philadelphia, USA",39.9526,-75.1652,America/New_York,constitution,Bundled reference event; verify the historical timestamp for research use.
+United States,Civil War begins,1861-04-12,04:30:00,"Charleston, USA",32.7765,-79.9311,America/New_York,conflict,Bundled reference event; verify the historical timestamp for research use.
+United States,Great Depression banking crisis marker,1929-10-24,09:00:00,"New York, USA",40.7128,-74.006,America/New_York,economic,Bundled reference event; verify the historical timestamp for research use.
+United States,September 11 attacks,2001-09-11,08:46:00,"New York, USA",40.7128,-74.006,America/New_York,crisis,Bundled reference event; verify the historical timestamp for research use.
+United Kingdom,Act of Union,1707-05-01,12:00:00,"London, UK",51.5074,-0.1278,Europe/London,constitutional,Bundled reference event; verify the historical timestamp for research use.
+United Kingdom,Second World War declared,1939-09-03,11:00:00,"London, UK",51.5074,-0.1278,Europe/London,conflict,Bundled reference event; verify the historical timestamp for research use.
+France,French Fifth Republic constitution,1958-10-04,18:00:00,"Paris, France",48.8566,2.3522,Europe/Paris,constitution,Bundled reference event; verify the historical timestamp for research use.
+France,French Revolution begins,1789-07-14,12:00:00,"Paris, France",48.8566,2.3522,Europe/Paris,political_transition,Bundled reference event; verify the historical timestamp for research use.
+Russia,Russian Federation constitutional order,1993-12-12,12:00:00,"Moscow, Russia",55.7558,37.6173,Europe/Moscow,constitution,Bundled reference event; verify the historical timestamp for research use.
+Russia,Russian Revolution marker,1917-11-07,21:00:00,"Petrograd, Russia",59.9343,30.3351,Europe/Moscow,political_transition,Bundled reference event; verify the historical timestamp for research use.
+South Africa,Republic transition,1994-05-10,12:00:00,"Pretoria, South Africa",-25.7479,28.2293,Africa/Johannesburg,transition,Bundled reference event; verify the historical timestamp for research use.
+China,People's Republic proclaimed,1949-10-01,15:00:00,"Beijing, China",39.9042,116.4074,Asia/Shanghai,founding,Bundled reference event; verify the historical timestamp for research use.
+Japan,Constitution of Japan,1947-05-03,00:00:00,"Tokyo, Japan",35.6762,139.6503,Asia/Tokyo,constitution,Bundled reference event; verify the historical timestamp for research use.
+Germany,German reunification,1990-10-03,00:00:00,"Berlin, Germany",52.52,13.405,Europe/Berlin,transition,Bundled reference event; verify the historical timestamp for research use.
+Brazil,Republic proclaimed,1889-11-15,15:00:00,"Rio de Janeiro, Brazil",-22.9068,-43.1729,America/Sao_Paulo,transition,Bundled reference event; verify the historical timestamp for research use.
+European Union,Treaty of Maastricht entered into force,1993-11-01,00:00:00,"Brussels, Belgium",50.8503,4.3517,Europe/Brussels,integration,Bundled reference event; verify the historical timestamp for research use.
+India,Sino-Indian War begins,1962-10-20,12:00:00,India,20.5937,78.9629,Asia/Kolkata,conflict,Date-only historical marker; noon proxy for research matching.
+India,Bangladesh Liberation War / India intervention,1971-12-03,12:00:00,India,20.5937,78.9629,Asia/Kolkata,conflict,Date-only historical marker; noon proxy for research matching.
+India,Pokhran-II nuclear tests,1998-05-11,12:00:00,"Pokhran, India",27.095,71.752,Asia/Kolkata,strategic,Date-only historical marker; noon proxy for research matching.
+India,Goods and Services Tax launched,2017-07-01,00:00:00,"New Delhi, India",28.6139,77.209,Asia/Kolkata,economic,Midnight implementation marker; verify parliamentary/technical timing for precision.
+India,COVID-19 national lockdown begins,2020-03-25,00:00:00,"New Delhi, India",28.6139,77.209,Asia/Kolkata,crisis,Date/time of national restriction marker.
+Pakistan,First military coup,1958-10-07,12:00:00,Pakistan,30.3753,69.3451,Asia/Karachi,political_transition,Date-only historical marker; noon proxy.
+Pakistan,1971 war / secession crisis,1971-12-16,12:00:00,Pakistan,30.3753,69.3451,Asia/Karachi,conflict,Date-only historical marker; noon proxy.
+Pakistan,Military coup of 1977,1977-07-05,12:00:00,"Islamabad, Pakistan",33.6844,73.0479,Asia/Karachi,political_transition,Date-only historical marker; noon proxy.
+Pakistan,Military coup of 1999,1999-10-12,12:00:00,"Islamabad, Pakistan",33.6844,73.0479,Asia/Karachi,political_transition,Date-only historical marker; noon proxy.
+Pakistan,No-confidence transition,2022-04-10,12:00:00,"Islamabad, Pakistan",33.6844,73.0479,Asia/Karachi,political_transition,Date-only historical marker; noon proxy.
+Bangladesh,Assassination of Sheikh Mujibur Rahman,1975-08-15,12:00:00,"Dhaka, Bangladesh",23.8103,90.4125,Asia/Dhaka,political_transition,Date-only historical marker; noon proxy.
+Bangladesh,Mass political transition,1990-12-06,12:00:00,"Dhaka, Bangladesh",23.8103,90.4125,Asia/Dhaka,political_transition,Date-only historical marker; noon proxy.
+Bangladesh,Caretaker government crisis,2007-01-11,12:00:00,"Dhaka, Bangladesh",23.8103,90.4125,Asia/Dhaka,political_transition,Date-only historical marker; noon proxy.
+Bangladesh,Government transition,2024-08-05,12:00:00,"Dhaka, Bangladesh",23.8103,90.4125,Asia/Dhaka,political_transition,Date-only historical marker; noon proxy.
+United States,Pearl Harbor attack / US enters WWII,1941-12-07,07:48:00,"Pearl Harbor, USA",21.3099,-157.8581,Pacific/Honolulu,conflict,Historically documented local start time; verify archival conventions.
+United States,JFK assassination,1963-11-22,12:30:00,"Dallas, USA",32.7767,-96.797,America/Chicago,political_crisis,Historically documented event time.
+United States,Apollo 11 Moon landing,1969-07-20,16:17:00,Moon / NASA mission,0,0,UTC,technology,Mission event; location is not terrestrial. Time marker retained for mundane research.
+United States,Nixon resignation,1974-08-09,12:00:00,"Washington, USA",38.9072,-77.0369,America/New_York,political_transition,Date-only marker; noon proxy.
+United States,2008 financial crisis marker,2008-09-15,12:00:00,"New York, USA",40.7128,-74.006,America/New_York,economic,Date-only market crisis marker; noon proxy.
+United States,COVID-19 national emergency,2020-03-13,12:00:00,"Washington, USA",38.9072,-77.0369,America/New_York,crisis,Date-only national marker; noon proxy.
+United Kingdom,UK joins EEC,1973-01-01,00:00:00,"London, UK",51.5074,-0.1278,Europe/London,integration,Implementation date.
+United Kingdom,Brexit referendum,2016-06-23,12:00:00,"London, UK",51.5074,-0.1278,Europe/London,constitutional,Date-only national vote marker; noon proxy.
+United Kingdom,Brexit legal exit,2020-01-31,23:00:00,"London, UK",51.5074,-0.1278,Europe/London,constitutional,Exit time marker.
+France,May 1968 crisis marker,1968-05-13,12:00:00,"Paris, France",48.8566,2.3522,Europe/Paris,political_transition,Date-only marker; noon proxy.
+France,Mitterrand elected president,1981-05-10,12:00:00,"Paris, France",48.8566,2.3522,Europe/Paris,political_transition,Date-only marker; noon proxy.
+France,Euro referendum / Maastricht marker,1992-09-20,12:00:00,"Paris, France",48.8566,2.3522,Europe/Paris,integration,Date-only marker; noon proxy.
+Russia,Dissolution of Soviet Union,1991-12-26,12:00:00,"Moscow, Russia",55.7558,37.6173,Europe/Moscow,transition,Date-only marker; noon proxy.
+Russia,Russian financial crisis,1998-08-17,12:00:00,"Moscow, Russia",55.7558,37.6173,Europe/Moscow,economic,Date-only marker; noon proxy.
+Russia,Crimea annexation marker,2014-03-18,12:00:00,"Moscow, Russia",55.7558,37.6173,Europe/Moscow,geopolitical,Date-only marker; noon proxy.
+Russia,Invasion of Ukraine begins,2022-02-24,05:00:00,"Moscow, Russia",55.7558,37.6173,Europe/Moscow,conflict,Publicly reported launch-time marker; verify operational chronology for research use.
+China,Reform and opening begins,1978-12-18,12:00:00,"Beijing, China",39.9042,116.4074,Asia/Shanghai,economic,Date-only political-economic marker; noon proxy.
+China,1989 political crisis marker,1989-06-04,12:00:00,"Beijing, China",39.9042,116.4074,Asia/Shanghai,political_crisis,Date-only marker; noon proxy.
+China,China joins WTO,2001-12-11,00:00:00,"Beijing, China",39.9042,116.4074,Asia/Shanghai,economic,Accession date.
+China,COVID-19 outbreak global marker,2020-01-23,12:00:00,"Wuhan, China",30.5928,114.3055,Asia/Shanghai,crisis,Date-only marker; noon proxy.
+Japan,Asset bubble collapse marker,1991-03-01,12:00:00,"Tokyo, Japan",35.6762,139.6503,Asia/Tokyo,economic,Date-only economic marker; noon proxy.
+Japan,Tohoku earthquake and tsunami,2011-03-11,14:46:00,Japan,38.322,-142.369,Asia/Tokyo,disaster,Earthquake epicenter coordinates are approximate; event time widely documented.
+Japan,COVID state of emergency marker,2020-04-07,12:00:00,"Tokyo, Japan",35.6762,139.6503,Asia/Tokyo,crisis,Date-only marker; noon proxy.
+Germany,Hitler appointed chancellor,1933-01-30,12:00:00,"Berlin, Germany",52.52,13.405,Europe/Berlin,political_transition,Date-only marker; noon proxy.
+Germany,Federal Republic founded,1949-05-23,12:00:00,"Bonn, Germany",50.7374,7.0982,Europe/Berlin,founding,Date-only marker; noon proxy.
+Germany,Berlin Wall falls,1989-11-09,18:53:00,"Berlin, Germany",52.52,13.405,Europe/Berlin,transition,Publicly reported press-conference timing marker; verify archival timestamp.
+Germany,Euro introduced as accounting currency,1999-01-01,00:00:00,"Frankfurt, Germany",50.1109,8.6821,Europe/Berlin,economic,Implementation date.
+South Africa,Nelson Mandela released,1990-02-11,15:00:00,"Cape Town, South Africa",-33.9249,18.4241,Africa/Johannesburg,political_transition,Publicly reported release-time marker.
+South Africa,First democratic election,1994-04-27,12:00:00,South Africa,-30.5595,22.9375,Africa/Johannesburg,political_transition,Election date; noon proxy.
+Brazil,Military coup,1964-04-01,12:00:00,"Brasilia, Brazil",-15.7939,-47.8828,America/Sao_Paulo,political_transition,Date-only marker; noon proxy.
+Brazil,Constitution of Brazil,1988-10-05,12:00:00,"Brasilia, Brazil",-15.7939,-47.8828,America/Sao_Paulo,constitution,Date-only marker; noon proxy.
+Brazil,Impeachment of Dilma Rousseff,2016-08-31,12:00:00,"Brasilia, Brazil",-15.7939,-47.8828,America/Sao_Paulo,political_transition,Date-only marker; noon proxy.
+Brazil,2022 presidential election marker,2022-10-30,12:00:00,"Brasilia, Brazil",-15.7939,-47.8828,America/Sao_Paulo,political_transition,Election date; noon proxy.
+European Union,Lisbon Treaty enters into force,2009-12-01,00:00:00,"Brussels, Belgium",50.8503,4.3517,Europe/Brussels,integration,Implementation date.
+European Union,Euro currency launched,2002-01-01,00:00:00,"Brussels, Belgium",50.8503,4.3517,Europe/Brussels,economic,Currency implementation date.
+Canada,Canadian Confederation,1867-07-01,12:00:00,"Ottawa, Canada",45.4215,-75.6972,America/Toronto,founding,Date-only marker; noon proxy. Verify archival proclamation timing for timed research.
+Canada,Constitution Act 1982,1982-04-17,12:00:00,"Ottawa, Canada",45.4215,-75.6972,America/Toronto,constitution,Date-only marker; noon proxy.
+Australia,Federation of Australia,1901-01-01,00:00:00,"Sydney, Australia",-33.8688,151.2093,Australia/Sydney,founding,Federation implementation date.
+Australia,Constitution referendum marker,1999-11-06,12:00:00,"Canberra, Australia",-35.2809,149.13,Australia/Sydney,constitutional,Date-only marker; noon proxy.
+New Zealand,Treaty of Waitangi marker,1840-02-06,12:00:00,"Waitangi, New Zealand",-35.2647,174.0804,Pacific/Auckland,founding,Historical signing date; timing conventions vary by local signing sequence.
+New Zealand,Dominion status,1907-09-26,12:00:00,"Wellington, New Zealand",-41.2866,174.7756,Pacific/Auckland,constitutional,Date-only marker; noon proxy.
+Italy,Kingdom of Italy proclaimed,1861-03-17,12:00:00,"Turin, Italy",45.0703,7.6869,Europe/Rome,founding,Date-only marker; noon proxy.
+Italy,Italian Republic referendum,1946-06-02,12:00:00,"Rome, Italy",41.9028,12.4964,Europe/Rome,transition,Date-only national vote marker; noon proxy.
+Spain,Spanish Constitution approved,1978-12-06,12:00:00,"Madrid, Spain",40.4168,-3.7038,Europe/Madrid,constitution,Date-only marker; noon proxy.
+Spain,Spanish transition marker,1975-11-20,12:00:00,"Madrid, Spain",40.4168,-3.7038,Europe/Madrid,political_transition,Date-only marker; noon proxy.
+Israel,Declaration of the State of Israel,1948-05-14,16:00:00,"Tel Aviv, Israel",32.0853,34.7818,Asia/Jerusalem,founding,Publicly documented declaration time; verify archival time standard.
+Israel,Six-Day War begins,1967-06-05,08:00:00,Israel,31.0461,34.8516,Asia/Jerusalem,conflict,Approximate operational start marker; verify archival convention.
+Iran,Islamic Republic referendum,1979-04-01,12:00:00,"Tehran, Iran",35.6892,51.389,Asia/Tehran,transition,Date-only referendum marker; noon proxy.
+Iran,Islamic Republic constitution,1979-12-03,12:00:00,"Tehran, Iran",35.6892,51.389,Asia/Tehran,constitution,Date-only marker; noon proxy.
+Turkey,Republic of Turkey proclaimed,1923-10-29,12:00:00,"Ankara, Turkey",39.9334,32.8597,Europe/Istanbul,founding,Date-only marker; noon proxy.
+Turkey,Constitutional referendum marker,1982-11-07,12:00:00,"Ankara, Turkey",39.9334,32.8597,Europe/Istanbul,constitution,Date-only marker; noon proxy.
+Saudi Arabia,Kingdom of Saudi Arabia unified,1932-09-23,12:00:00,"Riyadh, Saudi Arabia",24.7136,46.6753,Asia/Riyadh,founding,Date-only unification marker; noon proxy.
+Saudi Arabia,Oil nationalization marker,1980-11-01,12:00:00,"Riyadh, Saudi Arabia",24.7136,46.6753,Asia/Riyadh,economic,Date-only corporate/state-control marker; noon proxy.
+Indonesia,Proclamation of Indonesian Independence,1945-08-17,10:00:00,"Jakarta, Indonesia",-6.2088,106.8456,Asia/Jakarta,independence,Commonly documented proclamation time; verify archival source for research-grade timing.
+Indonesia,Reformasi transition,1998-05-21,12:00:00,"Jakarta, Indonesia",-6.2088,106.8456,Asia/Jakarta,political_transition,Date-only transition marker; noon proxy.
+Mexico,Mexican War of Independence begins,1810-09-16,12:00:00,"Dolores Hidalgo, Mexico",21.1561,-100.9324,America/Mexico_City,independence,Date-only historical marker; noon proxy.
+Mexico,Constitution of 1917,1917-02-05,12:00:00,"Queretaro, Mexico",20.5888,-100.3899,America/Mexico_City,constitution,Date-only marker; noon proxy.
+Argentina,Declaration of Independence,1816-07-09,12:00:00,"Tucuman, Argentina",-26.8083,-65.2176,America/Argentina/Tucuman,independence,Date-only marker; noon proxy.
+Argentina,Constitution of Argentina,1853-05-01,12:00:00,"Santa Fe, Argentina",-31.6333,-60.7,America/Argentina/Buenos_Aires,constitution,Date-only marker; noon proxy.
+Nigeria,Independence of Nigeria,1960-10-01,12:00:00,"Lagos, Nigeria",6.5244,3.3792,Africa/Lagos,independence,Date-only marker; noon proxy.
+Nigeria,Fourth Republic inauguration,1999-05-29,12:00:00,"Abuja, Nigeria",9.0765,7.3986,Africa/Lagos,transition,Date-only marker; noon proxy.
+Egypt,Egyptian Republic proclaimed,1953-06-18,12:00:00,"Cairo, Egypt",30.0444,31.2357,Africa/Cairo,transition,Date-only marker; noon proxy.
+Egypt,Egyptian Revolution 2011 marker,2011-01-25,12:00:00,"Cairo, Egypt",30.0444,31.2357,Africa/Cairo,political_transition,Date-only protest-wave marker; noon proxy.
+South Korea,Republic of Korea established,1948-08-15,12:00:00,"Seoul, South Korea",37.5665,126.978,Asia/Seoul,founding,Date-only marker; noon proxy.
+South Korea,Asian financial crisis marker,1997-11-21,12:00:00,"Seoul, South Korea",37.5665,126.978,Asia/Seoul,economic,Date-only market/IMF crisis marker; noon proxy.
+Ukraine,Independence of Ukraine,1991-08-24,12:00:00,"Kyiv, Ukraine",50.4501,30.5234,Europe/Kyiv,independence,Date-only marker; noon proxy.
+Ukraine,Orange Revolution marker,2004-11-22,12:00:00,"Kyiv, Ukraine",50.4501,30.5234,Europe/Kyiv,political_transition,Date-only protest marker; noon proxy.

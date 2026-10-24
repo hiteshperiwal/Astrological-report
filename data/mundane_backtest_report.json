@@ -1,0 +1,2064 @@
+{
+  "version": "1.0.5",
+  "method": "chronological development tuning + frozen blind holdout",
+  "cases": [
+    {
+      "country": "Israel",
+      "start_date": "2020-01-01",
+      "end_date": "2026-06-30",
+      "development_end": "2023-12-31",
+      "holdout_start": "2024-01-01",
+      "horizon_days": 365,
+      "step_days": 365,
+      "threshold": 60.0,
+      "top_k": 3,
+      "development": {
+        "rows": [
+          {
+            "anchor_date": "2020-01-01",
+            "horizon_end": "2020-12-31",
+            "predicted_events": [
+              {
+                "event_class": "earthquake",
+                "label": "Earthquake or seismic disruption",
+                "signal_score": 84.0,
+                "signal_level": "strong",
+                "forecast_date": "2020-06-29"
+              },
+              {
+                "event_class": "energy_supply_disruption",
+                "label": "Energy or fuel-supply disruption",
+                "signal_score": 84.0,
+                "signal_level": "strong",
+                "forecast_date": "2020-06-29"
+              },
+              {
+                "event_class": "infrastructure_failure",
+                "label": "Major infrastructure failure",
+                "signal_score": 84.0,
+                "signal_level": "strong",
+                "forecast_date": "2020-06-29"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Abraham Accords normalization breakthrough",
+                "date": "2020-08-13",
+                "event_class": "diplomatic_breakthrough"
+              }
+            ],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "earthquake",
+                "label": "Earthquake or seismic disruption",
+                "signal_score": 84.0,
+                "signal_level": "strong",
+                "forecast_date": "2020-06-29"
+              },
+              {
+                "event_class": "energy_supply_disruption",
+                "label": "Energy or fuel-supply disruption",
+                "signal_score": 84.0,
+                "signal_level": "strong",
+                "forecast_date": "2020-06-29"
+              },
+              {
+                "event_class": "infrastructure_failure",
+                "label": "Major infrastructure failure",
+                "signal_score": 84.0,
+                "signal_level": "strong",
+                "forecast_date": "2020-06-29"
+              }
+            ],
+            "missed_actual_events": [
+              {
+                "event": "Abraham Accords normalization breakthrough",
+                "date": "2020-08-13",
+                "event_class": "diplomatic_breakthrough"
+              }
+            ]
+          },
+          {
+            "anchor_date": "2020-12-31",
+            "horizon_end": "2021-12-31",
+            "predicted_events": [
+              {
+                "event_class": "agricultural_commodity_swing",
+                "label": "Agricultural commodity price swing",
+                "signal_score": 92.0,
+                "signal_level": "strong",
+                "forecast_date": "2021-04-30"
+              },
+              {
+                "event_class": "mass_migration",
+                "label": "Major migration or displacement wave",
+                "signal_score": 92.0,
+                "signal_level": "strong",
+                "forecast_date": "2021-12-26"
+              },
+              {
+                "event_class": "public_health_crisis",
+                "label": "Major public-health emergency",
+                "signal_score": 92.0,
+                "signal_level": "strong",
+                "forecast_date": "2021-12-26"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Gaza conflict escalation",
+                "date": "2021-05-10",
+                "event_class": "border_clash"
+              },
+              {
+                "event": "New coalition government formed",
+                "date": "2021-06-13",
+                "event_class": "leadership_transition"
+              }
+            ],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "agricultural_commodity_swing",
+                "label": "Agricultural commodity price swing",
+                "signal_score": 92.0,
+                "signal_level": "strong",
+                "forecast_date": "2021-04-30"
+              },
+              {
+                "event_class": "mass_migration",
+                "label": "Major migration or displacement wave",
+                "signal_score": 92.0,
+                "signal_level": "strong",
+                "forecast_date": "2021-12-26"
+              },
+              {
+                "event_class": "public_health_crisis",
+                "label": "Major public-health emergency",
+                "signal_score": 92.0,
+                "signal_level": "strong",
+                "forecast_date": "2021-12-26"
+              }
+            ],
+            "missed_actual_events": [
+              {
+                "event": "Gaza conflict escalation",
+                "date": "2021-05-10",
+                "event_class": "border_clash"
+              },
+              {
+                "event": "New coalition government formed",
+                "date": "2021-06-13",
+                "event_class": "leadership_transition"
+              }
+            ]
+          },
+          {
+            "anchor_date": "2021-12-31",
+            "horizon_end": "2022-12-31",
+            "predicted_events": [
+              {
+                "event_class": "agricultural_commodity_swing",
+                "label": "Agricultural commodity price swing",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "2021-12-31"
+              },
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "2021-12-31"
+              },
+              {
+                "event_class": "commodity_shock",
+                "label": "Commodity or resource-price shock",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "2022-08-28"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "2022 Knesset election",
+                "date": "2022-11-01",
+                "event_class": "major_election_success"
+              }
+            ],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "agricultural_commodity_swing",
+                "label": "Agricultural commodity price swing",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "2021-12-31"
+              },
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "2021-12-31"
+              },
+              {
+                "event_class": "commodity_shock",
+                "label": "Commodity or resource-price shock",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "2022-08-28"
+              }
+            ],
+            "missed_actual_events": [
+              {
+                "event": "2022 Knesset election",
+                "date": "2022-11-01",
+                "event_class": "major_election_success"
+              }
+            ]
+          },
+          {
+            "anchor_date": "2022-12-31",
+            "horizon_end": "2023-12-31",
+            "predicted_events": [
+              {
+                "event_class": "communications_outage",
+                "label": "Major communications outage",
+                "signal_score": 95.0,
+                "signal_level": "strong",
+                "forecast_date": "2023-03-01"
+              },
+              {
+                "event_class": "cyber_attack",
+                "label": "Major cyber or communications disruption",
+                "signal_score": 95.0,
+                "signal_level": "strong",
+                "forecast_date": "2023-03-01"
+              },
+              {
+                "event_class": "public_uprising",
+                "label": "Public uprising or mass mobilisation",
+                "signal_score": 95.0,
+                "signal_level": "strong",
+                "forecast_date": "2023-03-01"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Judicial overhaul mass protests",
+                "date": "2023-03-26",
+                "event_class": "internal_unrest"
+              },
+              {
+                "event": "Hamas-led October 7 attack",
+                "date": "2023-10-07",
+                "event_class": "terror_attack"
+              },
+              {
+                "event": "Israel Gaza ground offensive",
+                "date": "2023-10-27",
+                "event_class": "border_clash"
+              }
+            ],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "communications_outage",
+                "label": "Major communications outage",
+                "signal_score": 95.0,
+                "signal_level": "strong",
+                "forecast_date": "2023-03-01"
+              },
+              {
+                "event_class": "cyber_attack",
+                "label": "Major cyber or communications disruption",
+                "signal_score": 95.0,
+                "signal_level": "strong",
+                "forecast_date": "2023-03-01"
+              },
+              {
+                "event_class": "public_uprising",
+                "label": "Public uprising or mass mobilisation",
+                "signal_score": 95.0,
+                "signal_level": "strong",
+                "forecast_date": "2023-03-01"
+              }
+            ],
+            "missed_actual_events": [
+              {
+                "event": "Judicial overhaul mass protests",
+                "date": "2023-03-26",
+                "event_class": "internal_unrest"
+              },
+              {
+                "event": "Hamas-led October 7 attack",
+                "date": "2023-10-07",
+                "event_class": "terror_attack"
+              },
+              {
+                "event": "Israel Gaza ground offensive",
+                "date": "2023-10-27",
+                "event_class": "border_clash"
+              }
+            ]
+          },
+          {
+            "anchor_date": "2023-12-31",
+            "horizon_end": "2024-01-01",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          }
+        ],
+        "predicted": 12,
+        "actual": 7,
+        "hits": 0,
+        "precision_pct": 0.0,
+        "recall_pct": 0.0,
+        "f1_pct": 0.0
+      },
+      "blind_holdout": {
+        "rows": [
+          {
+            "anchor_date": "2024-01-01",
+            "horizon_end": "2024-12-31",
+            "predicted_events": [
+              {
+                "event_class": "space_launch_incident",
+                "label": "Major space or aerospace event",
+                "signal_score": 84.0,
+                "signal_level": "strong",
+                "forecast_date": "2024-12-26"
+              },
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 73.0,
+                "signal_level": "strong",
+                "forecast_date": "2024-06-29"
+              },
+              {
+                "event_class": "terror_attack",
+                "label": "Terrorism or mass-casualty security incident",
+                "signal_score": 73.0,
+                "signal_level": "strong",
+                "forecast_date": "2024-06-29"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Iran direct missile and drone attack",
+                "date": "2024-04-13",
+                "event_class": "border_clash"
+              },
+              {
+                "event": "Hezbollah pager explosions",
+                "date": "2024-09-17",
+                "event_class": "terror_attack"
+              },
+              {
+                "event": "Hassan Nasrallah killed",
+                "date": "2024-09-27",
+                "event_class": "border_clash"
+              },
+              {
+                "event": "Israel-Hezbollah ceasefire",
+                "date": "2024-11-27",
+                "event_class": "peace_settlement"
+              }
+            ],
+            "hits": [
+              {
+                "prediction": {
+                  "event_class": "border_clash",
+                  "label": "Border clash or military escalation",
+                  "signal_score": 73.0,
+                  "signal_level": "strong",
+                  "forecast_date": "2024-06-29"
+                },
+                "actual": {
+                  "event": "Iran direct missile and drone attack",
+                  "date": "2024-04-13",
+                  "event_class": "border_clash"
+                }
+              },
+              {
+                "prediction": {
+                  "event_class": "terror_attack",
+                  "label": "Terrorism or mass-casualty security incident",
+                  "signal_score": 73.0,
+                  "signal_level": "strong",
+                  "forecast_date": "2024-06-29"
+                },
+                "actual": {
+                  "event": "Hezbollah pager explosions",
+                  "date": "2024-09-17",
+                  "event_class": "terror_attack"
+                }
+              }
+            ],
+            "false_positive_predictions": [
+              {
+                "event_class": "space_launch_incident",
+                "label": "Major space or aerospace event",
+                "signal_score": 84.0,
+                "signal_level": "strong",
+                "forecast_date": "2024-12-26"
+              }
+            ],
+            "missed_actual_events": [
+              {
+                "event": "Israel-Hezbollah ceasefire",
+                "date": "2024-11-27",
+                "event_class": "peace_settlement"
+              }
+            ]
+          },
+          {
+            "anchor_date": "2024-12-31",
+            "horizon_end": "2025-12-31",
+            "predicted_events": [
+              {
+                "event_class": "gold_price_strength",
+                "label": "Gold price strength",
+                "signal_score": 92.0,
+                "signal_level": "strong",
+                "forecast_date": "2025-12-26"
+              },
+              {
+                "event_class": "internal_unrest",
+                "label": "Major protest or internal unrest",
+                "signal_score": 63.0,
+                "signal_level": "moderate",
+                "forecast_date": "2025-04-30"
+              },
+              {
+                "event_class": "commodity_shock",
+                "label": "Commodity or resource-price shock",
+                "signal_score": 60.0,
+                "signal_level": "moderate",
+                "forecast_date": "2024-12-31"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Gaza ceasefire and hostage deal",
+                "date": "2025-01-19",
+                "event_class": "peace_settlement"
+              },
+              {
+                "event": "Gaza war resumes",
+                "date": "2025-03-18",
+                "event_class": "border_clash"
+              }
+            ],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "gold_price_strength",
+                "label": "Gold price strength",
+                "signal_score": 92.0,
+                "signal_level": "strong",
+                "forecast_date": "2025-12-26"
+              },
+              {
+                "event_class": "internal_unrest",
+                "label": "Major protest or internal unrest",
+                "signal_score": 63.0,
+                "signal_level": "moderate",
+                "forecast_date": "2025-04-30"
+              },
+              {
+                "event_class": "commodity_shock",
+                "label": "Commodity or resource-price shock",
+                "signal_score": 60.0,
+                "signal_level": "moderate",
+                "forecast_date": "2024-12-31"
+              }
+            ],
+            "missed_actual_events": [
+              {
+                "event": "Gaza ceasefire and hostage deal",
+                "date": "2025-01-19",
+                "event_class": "peace_settlement"
+              },
+              {
+                "event": "Gaza war resumes",
+                "date": "2025-03-18",
+                "event_class": "border_clash"
+              }
+            ]
+          },
+          {
+            "anchor_date": "2025-12-31",
+            "horizon_end": "2026-07-01",
+            "predicted_events": [
+              {
+                "event_class": "energy_discovery",
+                "label": "Major energy or resource discovery",
+                "signal_score": 85.0,
+                "signal_level": "strong",
+                "forecast_date": "2026-03-01"
+              },
+              {
+                "event_class": "gold_price_strength",
+                "label": "Gold price strength",
+                "signal_score": 85.0,
+                "signal_level": "strong",
+                "forecast_date": "2026-03-01"
+              },
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 75.0,
+                "signal_level": "strong",
+                "forecast_date": "2026-06-29"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Renewed Israel-Iran strikes",
+                "date": "2026-06-08",
+                "event_class": "border_clash"
+              }
+            ],
+            "hits": [
+              {
+                "prediction": {
+                  "event_class": "border_clash",
+                  "label": "Border clash or military escalation",
+                  "signal_score": 75.0,
+                  "signal_level": "strong",
+                  "forecast_date": "2026-06-29"
+                },
+                "actual": {
+                  "event": "Renewed Israel-Iran strikes",
+                  "date": "2026-06-08",
+                  "event_class": "border_clash"
+                }
+              }
+            ],
+            "false_positive_predictions": [
+              {
+                "event_class": "energy_discovery",
+                "label": "Major energy or resource discovery",
+                "signal_score": 85.0,
+                "signal_level": "strong",
+                "forecast_date": "2026-03-01"
+              },
+              {
+                "event_class": "gold_price_strength",
+                "label": "Gold price strength",
+                "signal_score": 85.0,
+                "signal_level": "strong",
+                "forecast_date": "2026-03-01"
+              }
+            ],
+            "missed_actual_events": []
+          }
+        ],
+        "predicted": 9,
+        "actual": 7,
+        "hits": 3,
+        "precision_pct": 33.3,
+        "recall_pct": 42.9,
+        "f1_pct": 37.5
+      },
+      "tuning": {
+        "chosen": {
+          "threshold": 60,
+          "predicted": 12,
+          "actual": 7,
+          "hits": 0,
+          "precision_pct": 0.0,
+          "recall_pct": 0.0,
+          "f1_pct": 0.0
+        },
+        "candidates": [
+          {
+            "threshold": 60,
+            "predicted": 12,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 65,
+            "predicted": 12,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 70,
+            "predicted": 12,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 72,
+            "predicted": 12,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 75,
+            "predicted": 12,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 78,
+            "predicted": 12,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 80,
+            "predicted": 12,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 82,
+            "predicted": 12,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 85,
+            "predicted": 9,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 88,
+            "predicted": 9,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 90,
+            "predicted": 9,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 92,
+            "predicted": 9,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          },
+          {
+            "threshold": 95,
+            "predicted": 6,
+            "actual": 7,
+            "hits": 0,
+            "precision_pct": 0.0,
+            "recall_pct": 0.0,
+            "f1_pct": 0.0
+          }
+        ],
+        "criterion": "highest development F1 because no threshold reached 80% precision"
+      },
+      "anchors_tested": 8,
+      "actual_events_in_corpus": 14,
+      "blind_holdout_precision_pct": 33.3,
+      "blind_holdout_recall_pct": 42.9,
+      "blind_holdout_f1_pct": 37.5,
+      "meets_80_precision": false,
+      "method": "Chronological train/tune/holdout replay. Threshold is selected only on the development period and frozen before the blind holdout. Predictions are one-per-class and actual events are one-to-one matched.",
+      "interpretation": "The percentages measure agreement between this configured astrological classification engine and the bundled historical event corpus. They are not scientific proof of causation or general predictive accuracy.",
+      "correct_blind_holdout_predictions": [
+        {
+          "prediction": {
+            "event_class": "border_clash",
+            "label": "Border clash or military escalation",
+            "signal_score": 73.0,
+            "signal_level": "strong",
+            "forecast_date": "2024-06-29"
+          },
+          "actual": {
+            "event": "Iran direct missile and drone attack",
+            "date": "2024-04-13",
+            "event_class": "border_clash"
+          }
+        },
+        {
+          "prediction": {
+            "event_class": "terror_attack",
+            "label": "Terrorism or mass-casualty security incident",
+            "signal_score": 73.0,
+            "signal_level": "strong",
+            "forecast_date": "2024-06-29"
+          },
+          "actual": {
+            "event": "Hezbollah pager explosions",
+            "date": "2024-09-17",
+            "event_class": "terror_attack"
+          }
+        },
+        {
+          "prediction": {
+            "event_class": "border_clash",
+            "label": "Border clash or military escalation",
+            "signal_score": 75.0,
+            "signal_level": "strong",
+            "forecast_date": "2026-06-29"
+          },
+          "actual": {
+            "event": "Renewed Israel-Iran strikes",
+            "date": "2026-06-08",
+            "event_class": "border_clash"
+          }
+        }
+      ]
+    },
+    {
+      "country": "India",
+      "start_date": "1971-01-01",
+      "end_date": "1999-12-31",
+      "development_end": "1989-12-31",
+      "holdout_start": "1990-01-01",
+      "horizon_days": 365,
+      "step_days": 365,
+      "threshold": 95.0,
+      "top_k": 3,
+      "development": {
+        "rows": [
+          {
+            "anchor_date": "1971-01-01",
+            "horizon_end": "1972-01-01",
+            "predicted_events": [
+              {
+                "event_class": "aviation_incident",
+                "label": "Aviation incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1971-05-01"
+              },
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1971-01-01"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1971-05-01"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Bangladesh Liberation War / India intervention",
+                "date": "1971-12-03",
+                "event_class": "border_clash"
+              }
+            ],
+            "hits": [
+              {
+                "prediction": {
+                  "event_class": "border_clash",
+                  "label": "Border clash or military escalation",
+                  "signal_score": 100.0,
+                  "signal_level": "strong",
+                  "forecast_date": "1971-01-01"
+                },
+                "actual": {
+                  "event": "Bangladesh Liberation War / India intervention",
+                  "date": "1971-12-03",
+                  "event_class": "border_clash"
+                }
+              }
+            ],
+            "false_positive_predictions": [
+              {
+                "event_class": "aviation_incident",
+                "label": "Aviation incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1971-05-01"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1971-05-01"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1972-01-01",
+            "horizon_end": "1972-12-31",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1972-12-31",
+            "horizon_end": "1973-12-31",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1973-12-31",
+            "horizon_end": "1974-12-31",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1974-12-31",
+            "horizon_end": "1975-12-31",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-26"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-26"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-26"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Emergency declared",
+                "date": "1975-06-25",
+                "event_class": "constitutional_crisis"
+              }
+            ],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-26"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-26"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-26"
+              }
+            ],
+            "missed_actual_events": [
+              {
+                "event": "Emergency declared",
+                "date": "1975-06-25",
+                "event_class": "constitutional_crisis"
+              }
+            ]
+          },
+          {
+            "anchor_date": "1975-12-31",
+            "horizon_end": "1976-12-30",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-31"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-31"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-31"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-31"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-31"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1975-12-31"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1976-12-30",
+            "horizon_end": "1977-12-30",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1977-02-28"
+              },
+              {
+                "event_class": "terror_attack",
+                "label": "Terrorism or mass-casualty security incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1977-02-28"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1977-02-28"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Emergency lifted and political transition",
+                "date": "1977-03-21",
+                "event_class": "leadership_transition"
+              }
+            ],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1977-02-28"
+              },
+              {
+                "event_class": "terror_attack",
+                "label": "Terrorism or mass-casualty security incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1977-02-28"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1977-02-28"
+              }
+            ],
+            "missed_actual_events": [
+              {
+                "event": "Emergency lifted and political transition",
+                "date": "1977-03-21",
+                "event_class": "leadership_transition"
+              }
+            ]
+          },
+          {
+            "anchor_date": "1977-12-30",
+            "horizon_end": "1978-12-30",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1978-12-30",
+            "horizon_end": "1979-12-30",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1979-12-30",
+            "horizon_end": "1980-12-29",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1980-08-26"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1980-08-26"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1980-08-26"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1980-08-26"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1980-08-26"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1980-08-26"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1980-12-29",
+            "horizon_end": "1981-12-29",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1981-12-29",
+            "horizon_end": "1982-12-29",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1982-12-29",
+            "horizon_end": "1983-12-29",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1983-12-29",
+            "horizon_end": "1984-12-28",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1984-02-27"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 95.0,
+                "signal_level": "strong",
+                "forecast_date": "1984-02-27"
+              },
+              {
+                "event_class": "public_health_crisis",
+                "label": "Major public-health emergency",
+                "signal_score": 95.0,
+                "signal_level": "strong",
+                "forecast_date": "1984-10-24"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Operation Blue Star",
+                "date": "1984-06-03",
+                "event_class": "internal_unrest"
+              },
+              {
+                "event": "Assassination of Indira Gandhi",
+                "date": "1984-10-31",
+                "event_class": "leadership_transition"
+              }
+            ],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1984-02-27"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 95.0,
+                "signal_level": "strong",
+                "forecast_date": "1984-02-27"
+              },
+              {
+                "event_class": "public_health_crisis",
+                "label": "Major public-health emergency",
+                "signal_score": 95.0,
+                "signal_level": "strong",
+                "forecast_date": "1984-10-24"
+              }
+            ],
+            "missed_actual_events": [
+              {
+                "event": "Operation Blue Star",
+                "date": "1984-06-03",
+                "event_class": "internal_unrest"
+              },
+              {
+                "event": "Assassination of Indira Gandhi",
+                "date": "1984-10-31",
+                "event_class": "leadership_transition"
+              }
+            ]
+          },
+          {
+            "anchor_date": "1984-12-28",
+            "horizon_end": "1985-12-28",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1985-02-26"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1985-02-26"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1985-02-26"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1985-02-26"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1985-02-26"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1985-02-26"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1985-12-28",
+            "horizon_end": "1986-12-28",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1986-12-28",
+            "horizon_end": "1987-12-28",
+            "predicted_events": [
+              {
+                "event_class": "major_sports_victory",
+                "label": "Major international sports victory",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1987-12-23"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "major_sports_victory",
+                "label": "Major international sports victory",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1987-12-23"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1987-12-28",
+            "horizon_end": "1988-12-27",
+            "predicted_events": [
+              {
+                "event_class": "major_sports_victory",
+                "label": "Major international sports victory",
+                "signal_score": 97.0,
+                "signal_level": "strong",
+                "forecast_date": "1988-06-25"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "major_sports_victory",
+                "label": "Major international sports victory",
+                "signal_score": 97.0,
+                "signal_level": "strong",
+                "forecast_date": "1988-06-25"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1988-12-27",
+            "horizon_end": "1989-12-27",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-10-23"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-10-23"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-10-23"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-10-23"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-10-23"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-10-23"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1989-12-27",
+            "horizon_end": "1990-01-01",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-12-27"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-12-27"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-12-27"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-12-27"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-12-27"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1989-12-27"
+              }
+            ],
+            "missed_actual_events": []
+          }
+        ],
+        "predicted": 29,
+        "actual": 5,
+        "hits": 1,
+        "precision_pct": 3.4,
+        "recall_pct": 20.0,
+        "f1_pct": 5.9
+      },
+      "blind_holdout": {
+        "rows": [
+          {
+            "anchor_date": "1990-01-01",
+            "horizon_end": "1991-01-01",
+            "predicted_events": [
+              {
+                "event_class": "mass_migration",
+                "label": "Major migration or displacement wave",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1990-12-27"
+              },
+              {
+                "event_class": "trade_disruption",
+                "label": "Major trade or logistics disruption",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1990-12-27"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "mass_migration",
+                "label": "Major migration or displacement wave",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1990-12-27"
+              },
+              {
+                "event_class": "trade_disruption",
+                "label": "Major trade or logistics disruption",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1990-12-27"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1991-01-01",
+            "horizon_end": "1992-01-01",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1991-06-30"
+              },
+              {
+                "event_class": "mass_migration",
+                "label": "Major migration or displacement wave",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1991-01-01"
+              },
+              {
+                "event_class": "trade_disruption",
+                "label": "Major trade or logistics disruption",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1991-01-01"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Rajiv Gandhi assassination",
+                "date": "1991-05-21",
+                "event_class": "terror_attack"
+              },
+              {
+                "event": "Economic liberalisation begins",
+                "date": "1991-07-24",
+                "event_class": "economic_expansion"
+              }
+            ],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1991-06-30"
+              },
+              {
+                "event_class": "mass_migration",
+                "label": "Major migration or displacement wave",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1991-01-01"
+              },
+              {
+                "event_class": "trade_disruption",
+                "label": "Major trade or logistics disruption",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1991-01-01"
+              }
+            ],
+            "missed_actual_events": [
+              {
+                "event": "Rajiv Gandhi assassination",
+                "date": "1991-05-21",
+                "event_class": "terror_attack"
+              },
+              {
+                "event": "Economic liberalisation begins",
+                "date": "1991-07-24",
+                "event_class": "economic_expansion"
+              }
+            ]
+          },
+          {
+            "anchor_date": "1992-01-01",
+            "horizon_end": "1992-12-31",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1992-12-31",
+            "horizon_end": "1993-12-31",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1993-10-27"
+              },
+              {
+                "event_class": "mass_migration",
+                "label": "Major migration or displacement wave",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1993-12-26"
+              },
+              {
+                "event_class": "space_launch_incident",
+                "label": "Major space or aerospace event",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1993-10-27"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1993-10-27"
+              },
+              {
+                "event_class": "mass_migration",
+                "label": "Major migration or displacement wave",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1993-12-26"
+              },
+              {
+                "event_class": "space_launch_incident",
+                "label": "Major space or aerospace event",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1993-10-27"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1993-12-31",
+            "horizon_end": "1994-12-31",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1994-06-29"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1994-06-29"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1994-06-29"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1994-06-29"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1994-06-29"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1994-06-29"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1994-12-31",
+            "horizon_end": "1995-12-31",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1995-04-30"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1995-04-30"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1995-04-30"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1995-04-30"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1995-04-30"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1995-04-30"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1995-12-31",
+            "horizon_end": "1996-12-30",
+            "predicted_events": [
+              {
+                "event_class": "food_supply_stress",
+                "label": "Food or agricultural supply stress",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1996-12-25"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "food_supply_stress",
+                "label": "Food or agricultural supply stress",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1996-12-25"
+              }
+            ],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1996-12-30",
+            "horizon_end": "1997-12-30",
+            "predicted_events": [],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": []
+          },
+          {
+            "anchor_date": "1997-12-30",
+            "horizon_end": "1998-12-30",
+            "predicted_events": [],
+            "actual_events": [
+              {
+                "event": "Pokhran-II nuclear tests",
+                "date": "1998-05-11",
+                "event_class": "major_technology_breakthrough"
+              }
+            ],
+            "hits": [],
+            "false_positive_predictions": [],
+            "missed_actual_events": [
+              {
+                "event": "Pokhran-II nuclear tests",
+                "date": "1998-05-11",
+                "event_class": "major_technology_breakthrough"
+              }
+            ]
+          },
+          {
+            "anchor_date": "1998-12-30",
+            "horizon_end": "1999-12-30",
+            "predicted_events": [
+              {
+                "event_class": "border_clash",
+                "label": "Border clash or military escalation",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1999-02-28"
+              },
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1999-02-28"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1999-02-28"
+              }
+            ],
+            "actual_events": [
+              {
+                "event": "Kargil War begins",
+                "date": "1999-05-03",
+                "event_class": "border_clash"
+              },
+              {
+                "event": "Kargil War ends",
+                "date": "1999-07-26",
+                "event_class": "peace_settlement"
+              }
+            ],
+            "hits": [
+              {
+                "prediction": {
+                  "event_class": "border_clash",
+                  "label": "Border clash or military escalation",
+                  "signal_score": 100.0,
+                  "signal_level": "strong",
+                  "forecast_date": "1999-02-28"
+                },
+                "actual": {
+                  "event": "Kargil War begins",
+                  "date": "1999-05-03",
+                  "event_class": "border_clash"
+                }
+              }
+            ],
+            "false_positive_predictions": [
+              {
+                "event_class": "fire_explosion",
+                "label": "Fire or explosion incident",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1999-02-28"
+              },
+              {
+                "event_class": "market_volatility",
+                "label": "Elevated stock-market volatility",
+                "signal_score": 100.0,
+                "signal_level": "strong",
+                "forecast_date": "1999-02-28"
+              }
+            ],
+            "missed_actual_events": [
+              {
+                "event": "Kargil War ends",
+                "date": "1999-07-26",
+                "event_class": "peace_settlement"
+              }
+            ]
+          },
+          {
+            "anchor_date": "1999-12-30",
+            "horizon_end": "2000-01-01",
+            "predicted_events": [
+              {
+                "event_class": "mass_migration",
+                "label": "Major migration or displacement wave",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1999-12-30"
+              },
+              {
+                "event_class": "trade_disruption",
+                "label": "Major trade or logistics disruption",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1999-12-30"
+              }
+            ],
+            "actual_events": [],
+            "hits": [],
+            "false_positive_predictions": [
+              {
+                "event_class": "mass_migration",
+                "label": "Major migration or displacement wave",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1999-12-30"
+              },
+              {
+                "event_class": "trade_disruption",
+                "label": "Major trade or logistics disruption",
+                "signal_score": 99.0,
+                "signal_level": "strong",
+                "forecast_date": "1999-12-30"
+              }
+            ],
+            "missed_actual_events": []
+          }
+        ],
+        "predicted": 20,
+        "actual": 5,
+        "hits": 1,
+        "precision_pct": 5.0,
+        "recall_pct": 20.0,
+        "f1_pct": 8.0
+      },
+      "tuning": {
+        "chosen": {
+          "threshold": 95,
+          "predicted": 29,
+          "actual": 5,
+          "hits": 1,
+          "precision_pct": 3.4,
+          "recall_pct": 20.0,
+          "f1_pct": 5.9
+        },
+        "candidates": [
+          {
+            "threshold": 60,
+            "predicted": 60,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 1.7,
+            "recall_pct": 20.0,
+            "f1_pct": 3.1
+          },
+          {
+            "threshold": 65,
+            "predicted": 56,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 1.8,
+            "recall_pct": 20.0,
+            "f1_pct": 3.3
+          },
+          {
+            "threshold": 70,
+            "predicted": 54,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 1.9,
+            "recall_pct": 20.0,
+            "f1_pct": 3.4
+          },
+          {
+            "threshold": 72,
+            "predicted": 51,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 2.0,
+            "recall_pct": 20.0,
+            "f1_pct": 3.6
+          },
+          {
+            "threshold": 75,
+            "predicted": 51,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 2.0,
+            "recall_pct": 20.0,
+            "f1_pct": 3.6
+          },
+          {
+            "threshold": 78,
+            "predicted": 50,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 2.0,
+            "recall_pct": 20.0,
+            "f1_pct": 3.6
+          },
+          {
+            "threshold": 80,
+            "predicted": 50,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 2.0,
+            "recall_pct": 20.0,
+            "f1_pct": 3.6
+          },
+          {
+            "threshold": 82,
+            "predicted": 45,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 2.2,
+            "recall_pct": 20.0,
+            "f1_pct": 4.0
+          },
+          {
+            "threshold": 85,
+            "predicted": 32,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 3.1,
+            "recall_pct": 20.0,
+            "f1_pct": 5.4
+          },
+          {
+            "threshold": 88,
+            "predicted": 32,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 3.1,
+            "recall_pct": 20.0,
+            "f1_pct": 5.4
+          },
+          {
+            "threshold": 90,
+            "predicted": 32,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 3.1,
+            "recall_pct": 20.0,
+            "f1_pct": 5.4
+          },
+          {
+            "threshold": 92,
+            "predicted": 31,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 3.2,
+            "recall_pct": 20.0,
+            "f1_pct": 5.6
+          },
+          {
+            "threshold": 95,
+            "predicted": 29,
+            "actual": 5,
+            "hits": 1,
+            "precision_pct": 3.4,
+            "recall_pct": 20.0,
+            "f1_pct": 5.9
+          }
+        ],
+        "criterion": "highest development F1 because no threshold reached 80% precision"
+      },
+      "anchors_tested": 31,
+      "actual_events_in_corpus": 10,
+      "blind_holdout_precision_pct": 5.0,
+      "blind_holdout_recall_pct": 20.0,
+      "blind_holdout_f1_pct": 8.0,
+      "meets_80_precision": false,
+      "method": "Chronological train/tune/holdout replay. Threshold is selected only on the development period and frozen before the blind holdout. Predictions are one-per-class and actual events are one-to-one matched.",
+      "interpretation": "The percentages measure agreement between this configured astrological classification engine and the bundled historical event corpus. They are not scientific proof of causation or general predictive accuracy.",
+      "correct_blind_holdout_predictions": [
+        {
+          "prediction": {
+            "event_class": "border_clash",
+            "label": "Border clash or military escalation",
+            "signal_score": 100.0,
+            "signal_level": "strong",
+            "forecast_date": "1999-02-28"
+          },
+          "actual": {
+            "event": "Kargil War begins",
+            "date": "1999-05-03",
+            "event_class": "border_clash"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
+
+This project is intended to be distributed under AGPL-3.0-only.
+The application depends on Swiss Ephemeris via pyswisseph. Swiss Ephemeris
+is separately dual-licensed by Astrodienst; see the dependency's license and
+https://github.com/aloistr/swisseph/blob/master/LICENSE for its terms.

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jyotish-lab"
+version = "1.0.6"
+description = "Advanced Vedic astrology web application using Swiss Ephemeris"
+requires-python = ">=3.10"
+license = {text = "AGPL-3.0-only"}
+dependencies = [
+  "fastapi>=0.115,<1.0",
+  "uvicorn[standard]>=0.34,<1.0",
+  "pydantic>=2.7,<3.0",
+  "pyswisseph>=2.10.03",
+  "reportlab>=4.2,<5.0",
+  "jinja2>=3.1,<4.0",
+  "tzdata>=2024.1",
+  "timezonefinder>=6.5,<9.0",
+  "pytest>=8.0,<10.0",
+  "httpx>=0.28,<1.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

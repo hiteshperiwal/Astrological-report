@@ -1,0 +1,31 @@
+{
+  "release": "1.0.5",
+  "astronomical_backend": "Swiss Ephemeris / pyswisseph",
+  "sidereal_mode": "Lahiri",
+  "house_model": "Whole sign",
+  "reference_resources": [
+    {"name": "Swiss Ephemeris Programmer Documentation", "url": "https://www.astro.com/swisseph/swephprg.htm", "purpose": "Astronomical calculations, rise/set, sidereal flags"},
+    {"name": "Swiss Ephemeris Sidereal Documentation", "url": "https://www.astro.com/swisseph/swisseph.htm", "purpose": "Lahiri/ayanamsha conventions"},
+    {"name": "PyJHora", "url": "https://github.com/naturalstupid/PyJHora", "purpose": "Independent Jyotish reference; settings and lineage conventions must be matched"},
+    {"name": "PyJHora Ashtakavarga reference", "url": "https://github.com/naturalstupid/PyJHora/blob/main/src/jhora/horoscope/chart/ashtakavarga.py", "purpose": "BAV/SAV, shodhana and pinda algorithm comparison"},
+    {"name": "Astro-Databank Rodden Rating guidance", "url": "https://www.astro.com/astro-databank/Help:RR", "purpose": "Birth time source quality and uncertainty"}
+  ],
+  "fixed_regression_fixture": {
+    "dob": "2001-02-06",
+    "tob": "17:57:00",
+    "timezone": "Asia/Kolkata",
+    "latitude": 28.8777942,
+    "longitude": 74.0633619,
+    "ayanamsha": "Lahiri",
+    "expected_d9_ascendant": "Capricorn",
+    "expected_saturn_d9_sign": "Capricorn",
+    "expected_saturn_d9_house": 1
+  },
+  "validation_contract": {
+    "SAV_total": 337,
+    "muhurta_max_range_days": 90,
+    "muhurta_scores_are_probabilities": false,
+    "shadbala_is_canonical": false,
+    "astrological_predictive_accuracy_established": false
+  }
+}
